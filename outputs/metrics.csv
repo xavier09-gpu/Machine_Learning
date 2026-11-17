@@ -1,0 +1,5 @@
+﻿experiment,selected_parameters,accuracy,precision_macro,recall_macro,f1_macro
+Pixel + KNN,"{""model"": ""KNN"", ""metric"": ""euclidean"", ""n_neighbors"": 3, ""validation_f1_macro"": 0.9895881471083525, ""validation_accuracy"": 0.9895424836601308}",0.9782971619365609,0.9789453913900624,0.9781020059260873,0.9783038353737986
+HOG + KNN,"{""model"": ""KNN"", ""metric"": ""euclidean"", ""n_neighbors"": 9, ""validation_f1_macro"": 0.9829615994999917, ""validation_accuracy"": 0.9830065359477124}",0.9588202559821926,0.9595918167296078,0.9586267580574466,0.958679916928425
+Pixel + Decision Tree,"{""model"": ""Decision Tree"", ""max_depth"": 10, ""min_samples_leaf"": 4, ""validation_f1_macro"": 0.8895092827615054, ""validation_accuracy"": 0.8888888888888888}",0.8414023372287145,0.8419849502392447,0.8412500887695542,0.8405715877144925
+HOG + Decision Tree,"{""model"": ""Decision Tree"", ""max_depth"": null, ""min_samples_leaf"": 1, ""validation_f1_macro"": 0.8315239693836588, ""validation_accuracy"": 0.8313725490196079}",0.7929883138564274,0.7978967407217257,0.7928644102738258,0.7938576648876581

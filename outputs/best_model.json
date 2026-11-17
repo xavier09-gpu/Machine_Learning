@@ -1,0 +1,14 @@
+{
+  "experiment": "Pixel + KNN",
+  "parameters": {
+    "model": "KNN",
+    "metric": "euclidean",
+    "n_neighbors": 3,
+    "validation_f1_macro": 0.9895881471083525,
+    "validation_accuracy": 0.9895424836601308
+  },
+  "validation_split": 0.2,
+  "random_state": 42,
+  "official_train_samples": 3823,
+  "official_test_samples": 1797
+}

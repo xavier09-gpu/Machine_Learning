@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Phương án & Tham số & Accuracy & Precision & Recall & Macro F1 \\
+\midrule
+\textbf{*} Pixel + KNN & k=3, euclidean & 0.9783 & 0.9789 & 0.9781 & 0.9783 \\
+HOG + KNN & k=9, euclidean & 0.9588 & 0.9596 & 0.9586 & 0.9587 \\
+Pixel + Decision Tree & depth=10, leaf=4 & 0.8414 & 0.8420 & 0.8413 & 0.8406 \\
+HOG + Decision Tree & depth=không giới hạn, leaf=1 & 0.7930 & 0.7979 & 0.7929 & 0.7939 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Kết quả trên test set chính thức. Dấu * đánh dấu mô hình được chọn bằng validation.}
+\label{tab:results}
+\end{table}
